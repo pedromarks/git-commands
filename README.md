@@ -340,6 +340,13 @@ $ git checkout -- filename
 # Shows more detailed info about a commit
 $ git cat-file sha -p
 
+#add your username and password from github
+git config credential.helper store
+
+#ignore file mode 
+git config core.fileMode false
+
+
 ```
 
 #### Useful alias
