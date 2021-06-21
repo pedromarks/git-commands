@@ -346,6 +346,8 @@ git config credential.helper store
 #ignore file mode 
 git config core.fileMode false
 
+#windows autocrlf false
+git config --global core.autocrlf false
 
 ```
 
